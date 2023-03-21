@@ -1,0 +1,8 @@
+.ColContainer {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /*border: 1px solid;*/
+    margin: 10px;
+}

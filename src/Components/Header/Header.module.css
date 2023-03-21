@@ -1,0 +1,14 @@
+.Header__Container {
+    position: sticky;
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+    Font-family: Times;
+    font-size: 30px;
+    font-weight: lighter;
+}

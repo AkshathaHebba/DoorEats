@@ -1,0 +1,80 @@
+.DishDetail_container{
+    row-gap: 80px;
+    max-width: 90%;
+    margin: 30px;
+}
+.DishDetail_QuantityContainer{
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.DishDetail_name{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.DishDetail_desc{
+    color: grey;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.DishDetail_quantity{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 60px;
+    height:60px;
+    background-color: #eae5e5;
+    border-radius: 40px;
+    border : none;
+    box-shadow: 5px 5px 8px 1px rgba(84, 82, 82, 0.24);
+    transition: 0.2s all;
+}
+.DishDetail_quantity:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(131, 128, 128, 0.24);
+}
+.DishDetail_quantityNum{
+    font-size: 20px;
+}
+.DishDetail_Basket{
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    bottom: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+}
+.DisDetail_back{
+    top: 20px;
+    left: 10px;
+    border-radius: 40px;
+    width: 60px;
+    height:60px;
+    align-items: center;
+    padding: 1px;
+    background-color: #a8a2a2;
+    border: none;
+    font-size: 30px;
+    box-shadow: 5px 5px 8px 1px rgba(84, 82, 82, 0.24);
+    transition: 0.2s all;
+}
+.DisDetail_back:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(131, 128, 128, 0.24);
+}
+@media (max-width: 400px) {
+    .DishDetail_name{
+        font-size: 20px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .DishDetail_container{
+        row-gap: 80px;
+    }
+}

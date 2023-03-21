@@ -1,0 +1,12 @@
+
+.DishList_name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.DishList_description{
+    font-size: 18px;
+}
+.DishList_price{
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+.item{
+        width:100%;
+        height: 500px;
+        min-width: auto;
+}
+.item_title{
+        font-size: 20px;
+        font-weight: bold;
+}
+.item_subtitle{
+        font-size: 18px;
+        color: grey;
+        align-content: start;
+}
+.item_desc{
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+}
+.rating{
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #dac369;
+        border-radius: 40px;
+        padding: 5px;
+        width: 30px;
+        height: 20px;
+        margin-top: 5px
+}
